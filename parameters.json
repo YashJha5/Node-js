@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "5efa937f-30e8-457b-8cbc-7d2784acc484"
+        },
+        "name": {
+            "value": "celebal-nodefunc"
+        },
+        "location": {
+            "value": "East Asia"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-yashresource2-8d31"
+        },
+        "serverFarmResourceGroup": {
+            "value": "yash_resource2"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "storageaccountyashr80e8"
+        },
+        "linuxFxVersion": {
+            "value": "DOCKER|mcr.microsoft.com/azure-functions/node:2.0-node8-appservice"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        }
+    }
+}
